@@ -24,6 +24,7 @@ git cherry-pick 41cd40d6
 ## Reset master to the last correct position
 git checkout master
 git reset --hard 8e80419d
+???? git push --force ????
 
 ## Add all correct commits to master
 git merge test
