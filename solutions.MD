@@ -54,3 +54,6 @@ Merge that to your master with git merge master
 Update your master with the result with git push . HEAD:master
 Push the result out.
 Then people who were unfortunate enough to have based their work on the commit you obliterated by amending and forcing a push will see the resulting merge will see that you favor new over old. Their later merges will not see the conflicts between old and new that resulted from your amending, so they do not have to suffer.
+
+## Permanently delete commits from remote branch
+(Permanently delete commits from remote branch)[https://stackoverflow.com/questions/3293531/how-to-permanently-remove-few-commits-from-remote-branch]
